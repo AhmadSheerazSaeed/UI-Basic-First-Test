@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  height: 100%;
+}
+
+h1 {
+  background-color: cyan;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  margin-top: -1rem;
+  padding-top: 15px;
+}
+
+.list h3 {
+  color: black;
+}
+
+.heading-three {
+  color: rgb(255, 165, 0);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.list {
+  padding-top: 6rem;
+}
+
+ul {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+li {
+  margin-bottom: 1.5rem;
+}
+
+.list ul li:nth-child(2) {
+  color: blue;
+}
+
+.images div {
+  float: left;
+  margin-right: 3px;
+}
+
+.tree-image {
+  border-radius: 50%;
+}
+
+.links h3 {
+  margin-top: 2rem;
+}
+
+.box-model {
+  padding: 5px;
+  margin: 10em;
+}
+
+.box-model p {
+  margin-bottom: 2rem;
+}
+
+footer ul li a:visited {
+  color: green;
+}
+
+footer ul li a:hover {
+  color: red;
+}
